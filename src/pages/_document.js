@@ -22,6 +22,8 @@ export default function Document() {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         />
+
+<script src="https://kit.fontawesome.com/7264c2aa0a.js" crossorigin="anonymous"></script>
       </Head>
       <body>
         <script

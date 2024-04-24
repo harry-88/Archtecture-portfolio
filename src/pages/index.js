@@ -40,19 +40,21 @@ export default function Home() {
 
         <hr />
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center ">
+          <div className="d-flex ">
           <p
             onClick={() => setSelectedCat("Residential")}
-            className="category-menu"
+            className={`category-menu ${selectedCat == 'Residential'?'catSelected':''}`}
           >
             Residential
           </p>
           <p
             onClick={() => setSelectedCat("Commercial")}
-            className="category-menu"
+            className={`category-menu ${selectedCat == 'Commercial'?'catSelected':''}`}
           >
             Commercial
           </p>
+          </div>
         </div>
 
         <div className="row">

@@ -6,7 +6,7 @@ export default function MainSlider() {
     dots: true,
     fade: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -37,7 +37,7 @@ export default function MainSlider() {
         {images.map((image, index) => (
           <div key={index}>
             <img className="slider-img" src={image.src} alt={`Slide ${index + 1}`} />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption ">
               <h5 className="my-5 py-5">{image.text}</h5>
             </div>
           </div>
